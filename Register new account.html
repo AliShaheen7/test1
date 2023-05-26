@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Register new account</title>
+
+
+    <meta name="discription" content="Register new account" />
+
+</head>
+
+<body>
+    <h1>Wellcom To Registeration Form</h1>
+
+    <form method="get">
+        <fieldset>
+            <legend>
+                <b>
+                    Register new account
+                </b>
+            </legend>
+            <div> <label for="ID">ID</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" required placeholder="Auto Generated" name="ID">
+            </div>
+            <br>
+            <div> <label for="UesrName">User Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" required placeholder="UesrName" name="UesrName">
+            </div>
+            <br>
+            <div> <label
+                    for="Password">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" required placeholder="Password" name="Password" minlength="8" maxlength="12">
+            </div>
+            <br>
+
+            <div>
+                <label>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="b1" value="Male" id="M"> <label for="M">Male</label>
+                <input type="radio" name="b1" value="Female" id="F"> <label for="F">Female</label>
+
+            </div>
+            <br>
+            <div>
+                <label>LANGUGE</label>
+                <ul>
+                    <li><input name="b2" type="checkbox"> English</li>
+                    <li><input name="b2" type="checkbox">Arabic</li>
+                    <li><input name="b2" type="checkbox">Other</li>
+                </ul>
+
+
+
+            </div>
+
+            <div>
+                <label
+                    for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" required placeholder="info@example.com" name="email">
+
+            </div>
+            <br>
+            <div>
+                <label>Nationality</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="Nationality" id="Nationality">
+                    <option value="Palestinian">Palestinian</option>
+                    <option value="Amircan">Amircan</option>
+                    <option value="Russian">Russian</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="date">D.O.B</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="D.O.B" id="date" required placeholder="date">
+            </div>
+            <br>
+            <div>
+                <label for="Experience">Experience Years</label>&nbsp;
+                <input type="number" name="Experience" min="0" max="50" value="16" step="1">
+
+            </div>
+            <br>
+
+            <div>
+                <label for="color">Select Favo.color</label>&nbsp;
+                <input type="color" name="color" id="color">
+            </div>
+
+            <br>
+            <div>
+                <label>Biography</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <textarea name="Biography" id="Biography" cols="20" rows="4"
+                    placeholder="at least 100 words"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Creat New Account" width="100" height="50">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Cancel" width="100" height="50">
+
+            </div>
+
+        </fieldset>
+
+    </form>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
